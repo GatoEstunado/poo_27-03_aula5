@@ -50,7 +50,7 @@ int main() {
     // Comandos validos para a resposta para a ativacao do loop 
     while (resposta != 's' && resposta != 'S' && resposta != 'n' && resposta != 'N') {
         // Caso a resposta seja invalida
-        cout << "Resposta inválida. Deseja continuar? (s/n): ";
+        cout << "Resposta invalida. Deseja continuar? (s/n): ";
         cin >> resposta;
     }
         // Definir 'S' ou 's' como chave para continuar
